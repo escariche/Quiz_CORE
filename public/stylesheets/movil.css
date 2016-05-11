@@ -1,3 +1,7 @@
+@media only screen and (max-device-width: 480px) {
+
+}
+
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
@@ -36,7 +40,7 @@ div#navigationBar ul a:link{
    margin: 0; 
    padding: .3em .4em .3em .4em; 
    text-decoration: none;
-   font-size: medium; 
+   font-size: 400%; 
    color: #004415; 
 } 
 
@@ -45,7 +49,7 @@ div#navigationBar ul a:visited{
    padding: .3em .4em .3em .4em; 
    text-decoration: none; 
    font-weight: bold; 
-   font-size: medium; 
+   font-size: 500%; 
    color: #227755; 
 } 
 
@@ -53,7 +57,7 @@ div#navigationBar ul a:active{
    margin: 0; 
    padding: .3em .4em .3em .4em; 
    text-decoration: none;
-   font-size: medium; 
+   font-size: 500%; 
    color: #227755; 
 } 
 
@@ -62,7 +66,7 @@ div#navigationBar ul a:hover{
    padding: .3em .4em .3em .4em; 
    text-decoration: none; 
    font-weight: bold; 
-   font-size: medium; 
+   font-size: 500%; 
    color: #f6ae4c; 
    background-color: #227755; 
 }
@@ -70,11 +74,14 @@ div#navigationBar ul a:hover{
 div#header{
   margin: 0; 
    background: #ffffff; 
+   width: 0; 
+   height:0;
    width: 100%; 
    text-align: center; 
    font-size: 30px;
    font-family: Arial;
    
+   visibility:hidden;
 }
 
 div#main{
@@ -82,7 +89,7 @@ div#main{
    background: #ffffff; 
    width: 100%; 
    text-align: center;
-   font-size: 15px;
+   font-size: 100%;
    font-family:Verdana;
 }
 
@@ -91,21 +98,23 @@ div#main table{
    background: #ffffff; 
    width: 100%; 
    text-align: center;
-   font-size: medium;
+   font-size: 500%;
 }
 
 div#footer{
   margin: 0; 
    padding: .3em 0 .3em 0; 
    background: #d4ae4c; 
-   width: 100%; 
+   width: 0; 
+   height:0;
    text-align: center; 
    font-size: 12px;
    font-family:Arial;
+   
+      visibility:hidden;
 }
 
-  
-  
+
 table {
 	padding: 0px;
 	margin: 0px;
